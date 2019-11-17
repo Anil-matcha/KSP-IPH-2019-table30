@@ -10,9 +10,14 @@ Set of 6000 Images of Missing/Arrested/Unnatural Death/ Wanted people
 
 We divided the problem into 2 stages
 1. 1st stage consists of Face detection i.e detecting a face and it's coordinates in an image. We did this by using MTCNN architecture.
+
 ![](https://miro.medium.com/max/2506/1*ICM3jnRB1unY6G5ZRGorfg.png)
+
 MTCNN consists of 3 networks P-Network, R-Network and O-Network. P-Network provides basic bounding boxes by doing a 12x12 sliding window which then are fine-tuned by R-Network which gives tuned bounding boxes and confidence scores for each box. O-Network takes the outputs of R-Network and gives an output of bounding boxes, confidence scores and facial landmarks. 
 The landmarks obtained from the network are helpful in correcting posture of face which is needed for face recognition
+
+![](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Pipeline-for-the-Multi-Task-Cascaded-Convolutional-Neural-Network-862x1024.png)
+
 
 # Blockers when we started:
 
