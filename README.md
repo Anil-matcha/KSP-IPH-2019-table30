@@ -128,8 +128,8 @@ We ran the model over a live webcam and the model was able to work at a speed of
 
 # list of Tools used with version number
 * Tensorflow = 1.15.0
-* numpy==1.16.1
-* scipy==1.1.0
+* numpy = 1.16.1
+* scipy = 1.1.0
 
 # Steps to build and run the project including minimum configuration needed
  * Add facenet folder to colab local directory
