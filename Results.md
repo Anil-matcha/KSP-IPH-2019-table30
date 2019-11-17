@@ -8,6 +8,8 @@ Set of 6000 Images of Missing/Arrested/Unnatural Death/ Wanted people
 
 # Approach:
 
+**Face Detection**
+
 We divided the problem into 2 stages
 1. 1st stage consists of Face detection i.e detecting a face and it's coordinates in an image. We did this by using MTCNN architecture.
 
@@ -18,6 +20,18 @@ The landmarks obtained from the network are helpful in correcting posture of fac
 
 ![](https://3qeqpr26caki16dnhd19sv6by6v-wpengine.netdna-ssl.com/wp-content/uploads/2019/03/Pipeline-for-the-Multi-Task-Cascaded-Convolutional-Neural-Network-862x1024.png)
 
+**Face Recognition**
+For face recognition we used a Inception-Resnet based architecture to recognize the faces sent by detector. Detector crops the image across the bounding box which is sent to recognizer.
+
+![](https://1.bp.blogspot.com/-O7AznVGY9js/V8cV_wKKsMI/AAAAAAAABKQ/maO7n2w3dT4Pkcmk7wgGqiSX5FUW2sfZgCLcB/s1600/image00.png)
+
+The network is trained to give a 512 vector for every image input which is unique for every class. This is achieved by training the network using a triplet loss which makes the vector output of each class farther from each other. 
+
+**The advantage of such an architecture is new classes can be added on the fly, there is no need for network change**
+
+![](https://miro.medium.com/max/2480/1*lR_73E22fvaOfR5pzfOkdQ.png)
+
+Once the network is trained to identify the classes and make them distant, when a new image is provided it is matched with existing classes by comparing its vector output to every class vector output. The distance metric is subjective and we tried various things like euclidean distance, SVM, cosine distance, LSH etc and we found euclidean to provide the best results.
 
 # Blockers when we started:
 
