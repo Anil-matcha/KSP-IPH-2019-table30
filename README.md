@@ -65,6 +65,13 @@ The main task of the competition is to match images of people dead by natural ca
 ![Similar Match - 1076](Results_Images/Similarity_Matching/1076.png)
 ![Similar Match - 1076](Results_Images/Similarity_Matching/1076_t.png)
 
+We initially renamed the images to make it readable, as asked by jury we need to submit an excel sheet of the matches, therefore due to time constrants we ran the model for images and uploaded in excel. The full dataset is uploaded to drive.
+
+Drive_link = https://drive.google.com/drive/folders/1He07YpAtYEL91fCAkig9SYPqzOUhat_s
+
+zip link = https://drive.google.com/file/d/1lVYkr9j11zjvOstEa1fZr4Z7maCwZINv/view?usp=sharing
+
+
 ## Facial Recognition over given database:
 
 We have developed an Algorithm which gives **97.9 % accuracy**  which is comparable to the state of the art given it was trained over a very clean and good dataset. 
@@ -140,7 +147,9 @@ We ran the model over a live webcam and the model was able to work at a speed of
 * Tensorflow = 1.15.0
 * numpy = 1.16.1
 * scipy = 1.1.0
-
+https://drive.google.com/drive/folders/1He07YpAtYEL91fCAkig9SYPqzOUhat_s?usp=sharing
 # Steps to build and run the project including minimum configuration needed
  * Add facenet folder to colab local directory
  * Run Colab jupitor Cells sequencially as given in submitted Facenet_all_match.ipynb file
+
+
