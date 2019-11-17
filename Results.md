@@ -114,8 +114,8 @@ Results - 100% over different hardware specifications.
 
 We ran the model over a live webcam and the model was able to work at a speed of 5 - 10 Frames Per Second(FPS).
 
-# Choice of Technology	
-*Tensorflow, Keras
-*Google colab
-*Open source India face dataset
-*Facenet, MTCNN
+# Choice of Technology:
+* Tensorflow, Keras
+* Google colab
+* Open source India face dataset
+* Facenet, MTCNN
