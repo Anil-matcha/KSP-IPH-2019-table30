@@ -77,7 +77,7 @@ We have developed an Algorithm which gives **97.9 % accuracy**  which is compara
 ![person2]
 ![person2 - match]
 
-https://github.com/Anil-matcha/KSP-IPH-2019-table30/edit/master/Results.md## Facial Recognition over internet data
+## Facial Recognition over internet data
 
 We wanted to check the model performance on unseen type of data. So we have scraped web for data of 30 celebrities and were able to produce similar results as above mentioned
 
