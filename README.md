@@ -131,6 +131,6 @@ We ran the model over a live webcam and the model was able to work at a speed of
 * numpy==1.16.1
 * scipy==1.1.0
 
-#Steps to build and run the project including minimum configuration needed
+# Steps to build and run the project including minimum configuration needed
  * Add facenet folder to colab local directory
  * Run Colab jupitor Cells sequencially as given in submitted Facenet_all_match.ipynb file
