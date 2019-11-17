@@ -68,17 +68,49 @@ The main task of the competition is to match images of people dead by natural ca
 ## Facial Recognition over given database:
 
 We have developed an Algorithm which gives **97.9 % accuracy**  which is comparable to the state of the art given it was trained over a very clean and good dataset. 
-### Output - Person 1
-![person1](Results_Images/Face_recognition_given_dataset/119#_7e2ebcc1-d116-4622-9b87-518fe3c57c3f1262.jpg)
 
-## Facial Recognition over internet data:
+### Output - Person 1
+![person1](Results_Images/Face_recognition_given_dataset/CR\ NO\ 132\ #_a1ee9974-34ae-42f8-a914-05cb2f4c08971251.jpg)
+![person1 - match]
+
+### Output - Person 2
+![person2]
+![person2 - match]
+
+https://github.com/Anil-matcha/KSP-IPH-2019-table30/edit/master/Results.md## Facial Recognition over internet data
 
 We wanted to check the model performance on unseen type of data. So we have scraped web for data of 30 celebrities and were able to produce similar results as above mentioned
+
+### Output
+
 
 ## Facial Recognition on different hardware data:
 
 We wanted to test model reliability by checking with images taken from different hardware devices such as multiple phone cameras, webcam from computer etc. and our model was able to recognize all the variants with reliable accuracy.
 
+# Train
+
+**Train 1**
+![chirag train](Results_Images/Face_recognition_different_hardware/train/chirag/20191117_095752.jpg)
+
+**Train 2**
+![shubham train](Results_Images/Face_recognition_different_hardware/train/shubham/20191117_090952.jpg)
+
+# Test
+
+**test 1**
+
+![chirag test](Results_Images/Face_recognition_different_hardware/test/chirag/2019-11-17-102234.jpg)
+![chirag test 2](Results_Images/Face_recognition_different_hardware/test/chirag/2.jpg)
+
+**test 2**
+
+![shubham_test](KSP-IPH-2019-table30/Results_Images/Face_recognition_different_hardware/test/shubham/2019-11-17-091132.jpg)
+
+
+Results - 100% over different hardware specifications.
+
 ## Real Time Facial Recognition:
 
 We ran the model over a live webcam and the model was able to work at a speed of 5 - 10 Frames Per Second(FPS).
+
