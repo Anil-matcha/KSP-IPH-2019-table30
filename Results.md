@@ -68,6 +68,8 @@ The main task of the competition is to match images of people dead by natural ca
 ## Facial Recognition over given database:
 
 We have developed an Algorithm which gives **97.9 % accuracy**  which is comparable to the state of the art given it was trained over a very clean and good dataset. 
+### Output - Person 1
+![person1](Results_Images/Face_recognition_given_dataset/119#_7e2ebcc1-d116-4622-9b87-518fe3c57c3f1262.jpg)
 
 ## Facial Recognition over internet data:
 
