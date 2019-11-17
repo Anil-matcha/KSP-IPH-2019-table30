@@ -125,3 +125,12 @@ We ran the model over a live webcam and the model was able to work at a speed of
 * Google colab
 * Open source India face dataset
 * Facenet, MTCNN
+
+# list of Tools used with version number
+* Tensorflow = 1.15.0
+* numpy==1.16.1
+* scipy==1.1.0
+
+#Steps to build and run the project including minimum configuration needed
+ * Add facenet folder to colab local directory
+ * Run Colab jupitor Cells sequencially as given in submitted Facenet_all_match.ipynb file
