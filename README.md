@@ -94,8 +94,8 @@ Celebrity match
 ![celeb test](Results_Images/Face_recognition_Web_scraped_dataset/bum.jpg)
 ![celeb test 2](Results_Images/Face_recognition_Web_scraped_dataset/bum1.jpg)
 
-![celeb test](Results_Images/Face_recognition_Web_scraped_dataset/mahesh-babu.jpg)
-![celeb test 2](Results_Images/Face_recognition_Web_scraped_dataset/mahesh-babu1.jpg)
+![celeb test](Results_Images/Face_recognition_Web_scraped_dataset/pr.jpg)
+![celeb test 2](Results_Images/Face_recognition_Web_scraped_dataset/pr1.jpg)
 
 ### Output
 
