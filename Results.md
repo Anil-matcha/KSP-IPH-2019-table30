@@ -111,7 +111,7 @@ We wanted to test model reliability by checking with images taken from different
 
 **test 2**
 
-![shubham_test](KSP-IPH-2019-table30/Results_Images/Face_recognition_different_hardware/test/shubham/2019-11-17-091132.jpg)
+![shubham_test](KSP-IPH-2019-table30/Results_Images/Face_recognition_different_hardware/test/shubham/1.jpg)
 
 
 Results - 100% over different hardware specifications.
