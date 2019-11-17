@@ -65,7 +65,7 @@ The main task of the competition is to match images of people dead by natural ca
 ![Similar Match - 1076](Results_Images/Similarity_Matching/1076.png)
 ![Similar Match - 1076](Results_Images/Similarity_Matching/1076_t.png)
 
-We initially renamed the images to make it readable, as asked by jury we need to submit an excel sheet of the matches, therefore due to time constrants we ran the model for images and uploaded in excel. The full dataset is uploaded to drive.
+We initially renamed the images to make it readable, but as asked by jury we need to submit an excel sheet of the matches with the exact names, therefore due to time constrants we ran the model for  fewimages and uploaded a list in excel. The full dataset is uploaded to drive and the zip link is also provided. Excel has very few matches due to time constrast, but a pixel matching algorithm can be run later to obtain the exact names over the images in drive.
 
 Drive_link = https://drive.google.com/drive/folders/1He07YpAtYEL91fCAkig9SYPqzOUhat_s
 
