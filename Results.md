@@ -70,12 +70,18 @@ The main task of the competition is to match images of people dead by natural ca
 We have developed an Algorithm which gives **97.9 % accuracy**  which is comparable to the state of the art given it was trained over a very clean and good dataset. 
 
 ### Output - Person 1
-![person1](Results_Images/Face_recognition_given_dataset/CR\ NO\ 132\ #_a1ee9974-34ae-42f8-a914-05cb2f4c08971251.jpg)
-![person1 - match]
+
+person - Matched person
+
+![person1](Results_Images/Face_recognition_given_dataset/1.jpg)
+![person1 - match](Results_Images/Face_recognition_given_dataset/1a.jpg)
 
 ### Output - Person 2
-![person2]
-![person2 - match]
+
+person - Matched person
+
+![person2](Results_Images/Face_recognition_given_dataset/2.jpg)
+![person2 - match](Results_Images/Face_recognition_given_dataset/2a.jpg)
 
 ## Facial Recognition over internet data
 
@@ -114,8 +120,8 @@ Results - 100% over different hardware specifications.
 
 We ran the model over a live webcam and the model was able to work at a speed of 5 - 10 Frames Per Second(FPS).
 
-# Choice of Technology:
-* Tensorflow, Keras
-* Google colab
-* Open source India face dataset
-* Facenet, MTCNN
+# Choice of Technology	
+*Tensorflow, Keras
+*Google colab
+*Open source India face dataset
+*Facenet, MTCNN
