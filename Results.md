@@ -30,6 +30,16 @@ We have developed a **robust** model which is tackle the following:
 
 The main task of the competition is to match images of people dead by natural causes with images from arrested/wanted/missing people images and to provide best match. As we can see the outputs are pretty awesome considering the limited amount of data and the noise present in most of the dead images
 
+### Output
+![Similar Match - 844](Results_Images/Similarity_Matching/844.png)
+![Similar Match - 844](Results_Images/Similarity_Matching/844_t.png)
+
+![Similar Match - 848](Results_Images/Similarity_Matching/848.png)
+![Similar Match - 848](Results_Images/Similarity_Matching/848_t.png)
+
+![Similar Match - 1076](Results_Images/Similarity_Matching/1076.png)
+![Similar Match - 1076](Results_Images/Similarity_Matching/1076_t.png)
+
 ## Facial Recognition over given database:
 
 We have developed an Algorithm which gives **97.9 % accuracy**  which is comparable to the state of the art given it was trained over a very clean and good dataset. 
